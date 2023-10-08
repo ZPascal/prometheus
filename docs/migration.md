@@ -161,7 +161,7 @@ The following features have been removed from PromQL:
 - `count_scalar` function - use cases are better handled by `absent()` or correct
   propagation of labels in operations.
 
-See [issue #3060](https://github.com/prometheus/prometheus/issues/3060) for more
+See [issue #3060](https://github.com/zpascal/prometheus/issues/3060) for more
 details.
 
 ## Miscellaneous

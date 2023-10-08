@@ -33,12 +33,12 @@ import (
 
 	client_testutil "github.com/prometheus/client_golang/prometheus/testutil"
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/prompb"
-	tsdbLabels "github.com/prometheus/prometheus/tsdb/labels"
-	"github.com/prometheus/prometheus/tsdb/record"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/zpascal/prometheus/v2/config"
+	"github.com/zpascal/prometheus/v2/pkg/labels"
+	"github.com/zpascal/prometheus/v2/prompb"
+	tsdbLabels "github.com/zpascal/prometheus/v2/tsdb/labels"
+	"github.com/zpascal/prometheus/v2/tsdb/record"
+	"github.com/zpascal/prometheus/v2/util/testutil"
 )
 
 const defaultFlushDeadline = 1 * time.Minute

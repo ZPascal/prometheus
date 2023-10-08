@@ -23,9 +23,9 @@ import (
 	"github.com/go-kit/kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/storage"
+	"github.com/zpascal/prometheus/v2/config"
+	"github.com/zpascal/prometheus/v2/pkg/labels"
+	"github.com/zpascal/prometheus/v2/storage"
 )
 
 var (

@@ -23,9 +23,9 @@ import (
 	"github.com/prometheus/common/model"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/prometheus/prometheus/pkg/timestamp"
-	"github.com/prometheus/prometheus/promql"
-	"github.com/prometheus/prometheus/template"
+	"github.com/zpascal/prometheus/v2/pkg/timestamp"
+	"github.com/zpascal/prometheus/v2/promql"
+	"github.com/zpascal/prometheus/v2/template"
 )
 
 // Error represents semantical errors on parsing rule groups.

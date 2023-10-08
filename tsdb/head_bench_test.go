@@ -18,8 +18,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/prometheus/prometheus/tsdb/labels"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/zpascal/prometheus/v2/tsdb/labels"
+	"github.com/zpascal/prometheus/v2/util/testutil"
 )
 
 func BenchmarkHeadStripeSeriesCreate(b *testing.B) {

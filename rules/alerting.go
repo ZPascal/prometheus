@@ -30,12 +30,12 @@ import (
 	"github.com/pkg/errors"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/pkg/rulefmt"
-	"github.com/prometheus/prometheus/pkg/timestamp"
-	"github.com/prometheus/prometheus/promql"
-	"github.com/prometheus/prometheus/template"
-	"github.com/prometheus/prometheus/util/strutil"
+	"github.com/zpascal/prometheus/v2/pkg/labels"
+	"github.com/zpascal/prometheus/v2/pkg/rulefmt"
+	"github.com/zpascal/prometheus/v2/pkg/timestamp"
+	"github.com/zpascal/prometheus/v2/promql"
+	"github.com/zpascal/prometheus/v2/template"
+	"github.com/zpascal/prometheus/v2/util/strutil"
 )
 
 const (

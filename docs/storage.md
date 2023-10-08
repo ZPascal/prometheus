@@ -45,7 +45,7 @@ The directory structure of a Prometheus server's data directory will look someth
 
 Note that a limitation of the local storage is that it is not clustered or replicated. Thus, it is not arbitrarily scalable or durable in the face of disk or node outages and should thus be treated as more of an ephemeral sliding window of recent data. However, if your durability requirements are not strict, you may still succeed in storing up to years of data in the local storage.
 
-For further details on file format, see [TSDB format](https://github.com/prometheus/prometheus/blob/master/tsdb/docs/format/README.md).
+For further details on file format, see [TSDB format](https://github.com/zpascal/prometheus/blob/master/tsdb/docs/format/README.md).
 
 ## Compaction
 
@@ -94,7 +94,7 @@ The read and write protocols both use a snappy-compressed protocol buffer encodi
 
 For details on configuring remote storage integrations in Prometheus, see the [remote write](configuration/configuration.md#remote_write) and [remote read](configuration/configuration.md#remote_read) sections of the Prometheus configuration documentation.
 
-For details on the request and response messages, see the [remote storage protocol buffer definitions](https://github.com/prometheus/prometheus/blob/master/prompb/remote.proto).
+For details on the request and response messages, see the [remote storage protocol buffer definitions](https://github.com/zpascal/prometheus/blob/master/prompb/remote.proto).
 
 Note that on the read path, Prometheus only fetches raw series data for a set of label selectors and time ranges from the remote end. All PromQL evaluation on the raw data still happens in Prometheus itself. This means that remote read queries have some scalability limit, since all necessary data needs to be loaded into the querying Prometheus server first and then processed there. However, supporting fully distributed evaluation of PromQL was deemed infeasible for the time being.
 

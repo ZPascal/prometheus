@@ -20,7 +20,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/zpascal/prometheus/v2/util/testutil"
 )
 
 func TestCompareAndEquals(t *testing.T) {

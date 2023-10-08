@@ -28,9 +28,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	dto "github.com/prometheus/client_model/go"
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/config"
-	sd_config "github.com/prometheus/prometheus/discovery/config"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
+	"github.com/zpascal/prometheus/v2/config"
+	sd_config "github.com/zpascal/prometheus/v2/discovery/config"
+	"github.com/zpascal/prometheus/v2/discovery/targetgroup"
 	"gopkg.in/yaml.v2"
 )
 

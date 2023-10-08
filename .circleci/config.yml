@@ -38,14 +38,14 @@ jobs:
         file: promtool
   fuzzit_regression:
     executor: fuzzit
-    working_directory: /go/src/github.com/prometheus/prometheus
+    working_directory: /go/src/github.com/zpascal/prometheus
     steps:
       - checkout
       - setup_remote_docker
       - run: ./fuzzit.sh local-regression
   fuzzit_fuzzing:
     executor: fuzzit
-    working_directory: /go/src/github.com/prometheus/prometheus
+    working_directory: /go/src/github.com/zpascal/prometheus
     steps:
       - checkout
       - setup_remote_docker

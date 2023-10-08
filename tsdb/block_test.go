@@ -26,10 +26,10 @@ import (
 	"testing"
 
 	"github.com/go-kit/kit/log"
-	"github.com/prometheus/prometheus/tsdb/chunks"
-	"github.com/prometheus/prometheus/tsdb/labels"
-	"github.com/prometheus/prometheus/tsdb/tsdbutil"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/zpascal/prometheus/v2/tsdb/chunks"
+	"github.com/zpascal/prometheus/v2/tsdb/labels"
+	"github.com/zpascal/prometheus/v2/tsdb/tsdbutil"
+	"github.com/zpascal/prometheus/v2/util/testutil"
 )
 
 // In Prometheus 2.1.0 we had a bug where the meta.json version was falsely bumped

@@ -1,4 +1,4 @@
-module github.com/prometheus/prometheus
+module github.com/zpascal/prometheus/v2
 
 go 1.12
 

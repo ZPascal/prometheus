@@ -4,7 +4,7 @@
 [![CircleCI](https://circleci.com/gh/prometheus/prometheus/tree/master.svg?style=shield)][circleci]
 [![Docker Repository on Quay](https://quay.io/repository/prometheus/prometheus/status)][quay]
 [![Docker Pulls](https://img.shields.io/docker/pulls/prom/prometheus.svg?maxAge=604800)][hub]
-[![Go Report Card](https://goreportcard.com/badge/github.com/prometheus/prometheus)](https://goreportcard.com/report/github.com/prometheus/prometheus)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zpascal/prometheus)](https://goreportcard.com/report/github.com/prometheus/prometheus)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/486/badge)](https://bestpractices.coreinfrastructure.org/projects/486)
 [![fuzzit](https://app.fuzzit.dev/badge?org_id=prometheus&branch=master)](https://fuzzit.dev)
 
@@ -64,14 +64,14 @@ Go environment with [version 1.13 or greater installed](https://golang.org/doc/i
 You can directly use the `go` tool to download and install the `prometheus`
 and `promtool` binaries into your `GOPATH`:
 
-    $ go get github.com/prometheus/prometheus/cmd/...
+    $ go get github.com/zpascal/prometheus/cmd/...
     $ prometheus --config.file=your_config.yml
 
 You can also clone the repository yourself and build using `make`:
 
     $ mkdir -p $GOPATH/src/github.com/prometheus
     $ cd $GOPATH/src/github.com/prometheus
-    $ git clone https://github.com/prometheus/prometheus.git
+    $ git clone https://github.com/zpascal/prometheus.git
     $ cd prometheus
     $ make build
     $ ./prometheus --config.file=your_config.yml
@@ -94,7 +94,7 @@ The Makefile provides several targets:
 
 ## Contributing
 
-Refer to [CONTRIBUTING.md](https://github.com/prometheus/prometheus/blob/master/CONTRIBUTING.md)
+Refer to [CONTRIBUTING.md](https://github.com/zpascal/prometheus/blob/master/CONTRIBUTING.md)
 
 ## License
 

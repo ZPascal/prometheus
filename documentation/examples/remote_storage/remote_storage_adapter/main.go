@@ -40,10 +40,10 @@ import (
 	"github.com/prometheus/common/promlog"
 	"github.com/prometheus/common/promlog/flag"
 
-	"github.com/prometheus/prometheus/documentation/examples/remote_storage/remote_storage_adapter/graphite"
-	"github.com/prometheus/prometheus/documentation/examples/remote_storage/remote_storage_adapter/influxdb"
-	"github.com/prometheus/prometheus/documentation/examples/remote_storage/remote_storage_adapter/opentsdb"
-	"github.com/prometheus/prometheus/prompb"
+	"github.com/zpascal/prometheus/v2/documentation/examples/remote_storage/remote_storage_adapter/graphite"
+	"github.com/zpascal/prometheus/v2/documentation/examples/remote_storage/remote_storage_adapter/influxdb"
+	"github.com/zpascal/prometheus/v2/documentation/examples/remote_storage/remote_storage_adapter/opentsdb"
+	"github.com/zpascal/prometheus/v2/prompb"
 )
 
 type config struct {

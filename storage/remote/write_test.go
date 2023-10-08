@@ -20,9 +20,9 @@ import (
 	"time"
 
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/zpascal/prometheus/v2/config"
+	"github.com/zpascal/prometheus/v2/pkg/labels"
+	"github.com/zpascal/prometheus/v2/util/testutil"
 )
 
 func TestWriteStorageLifecycle(t *testing.T) {
